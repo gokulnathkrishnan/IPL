@@ -1,0 +1,1 @@
+A Webpage is created for IPL (Indian Premier League) using basics of HTML5, CSS3 and JavaScript. This Front-end Code was exclusively presented in SASTRA University, during the preliminary test for securing interns @ PiQube, Chennai.
