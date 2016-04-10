@@ -1,0 +1,121 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        fieldset {
+            background: lightgreen;
+            border:10px solid yellow;
+            margin-bottom: 10px;
+            width: 720px;
+        }
+        
+        input[type="radio"] + label,
+        input[type="checkbox"] + label {
+            width: auto;
+        }
+        textarea {
+            width: 360px;
+            height: 50px;
+        }
+     
+        
+        input:hover,
+        label:hover {
+            font-size: 40px;
+        }
+ <title> </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="">
+  <script src=" "></script>
+  <script src=" "></script>
+
+
+    </style>
+</head>
+<body bgcolor="violet">
+
+      
+    <h1> Indian Premier League Fans Club </h1>
+    <form action=" " method="POST" enctype="multipart/form-data">
+    <br>
+    <p> * Below all are <i> MANDATORY </i></p>
+    <h3>Register here to get the latest updates about your desired team & Do support for IPL ... !!!  </h3>
+
+
+        </br>
+        <br>
+<form action="action_page.php">
+        <fieldset>
+            <legend>Your General Details</legend>
+            <label for="name">Name: </label><input id="name" type= "text" placeholder="Enter Your Name" required><br>
+            
+             <label for="gender">Gender:</label>
+             <input id="gender" type="radio" name="sex" value="Male" required>  <label class="widthAuto" for="gender">Male </label>
+             <input type="radio" name="sex" value="Female"> <label class="widthAuto"  for="gender">Female</label> <br>
+    <label for="age">Age: </label><input type="number" min="0" max="99" step="1" value="18" id="age" name="age" required><br>
+    <label for="dob">Date of birth: </label><input id="dob" type="date" name="birthday" required> <br>
+    
+    <label for="reg"> Region : </label> <input id="region" type="radio" name="reg" value="Overseas" required>  <label class="widthAuto" for="region"> Overseas  (or) </label>
+    <input id="region" type="radio" name="reg" value="India" required>  <label class="widthAuto" for="region"> India </label>
+     & Suporting For which team: 
+    <select id="india">
+    
+        <option> NA </option>
+  		<option value="Pune">Pune</option>
+  		<option value="Mumbai">Mumbai</option>
+  		<option value="Kolkata">Kolkata</option>
+  		<option value="Punjab">Punjab</option>
+  		<option value="Bangalore">Bangalore</option>
+<option value="Guj">Gujarat</option>
+<option value="Del">Delhi</option>
+<option value="hy">Hyderabad</option>
+  	</select>
+        </fieldset>
+        </br>
+<img src="vivo-ipl-2016-logos.jpg" style="width:1150px;height:450px;"> 
+        <h3>Security Purpose </h3>
+        <fieldset>
+            <legend>  </legend>
+           <label for="color">Tell Your Favorite color: </label><input id="color" type="color" name="color" required><br>
+        </fieldset>
+        </br>
+        <br>
+        <h3> Contact Me: </h3>
+        <fieldset>
+            <legend> Information</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+            <br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <br>
+            <label for="method">Method to contact you:</label>
+            <input type="checkbox" id="method-email" name="method" value="email">
+            <label for="method-email">Email</label>
+            <input type="checkbox" id="method-whatsapp" name="method" value="whatsapp">
+            <label for="method-whatsapp">Whatsapp</label>
+            <input type="checkbox" id="msge" name="method" value="msge">
+            <label for="=msge">Message-SMS</label>
+      
+        </br>
+        <br>
+<p>Confirm Once before Submitting:</p>
+
+<button onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+    alert("Thank You For submitting...!");
+}
+</script>
+  </fieldset> 
+    </br>
+    </form>
+  
+</body>
+</html>
